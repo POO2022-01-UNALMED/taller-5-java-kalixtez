@@ -8,11 +8,10 @@ public class Zoologico
 	
 	private ArrayList<Zona> zonas;
 	
-	public Zoologico(String nombre, String ubicacion, ArrayList<Zona> zona)
+	public Zoologico(String nombre, String ubicacion)
 	{
 		this.nombre = nombre;
 		this.ubicacion = ubicacion;
-		this.zonas = zona;
 	}
 	
 	public Zoologico()
