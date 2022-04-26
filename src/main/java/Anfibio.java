@@ -36,9 +36,9 @@ public class Anfibio extends Animal{
 		return ranas + salamandras;
 	}
 	
-	public static Anfibio crearRana(String nombre, int edad, String habitat, String genero, Zona zona)
+	public static Anfibio crearRana(String nombre, int edad, String habitat, String genero)
 	{
-		Anfibio rana = new Anfibio(nombre, edad, habitat, genero, zona, " ", false);
+		Anfibio rana = new Anfibio(nombre, edad, habitat, genero, " ", false);
 		rana.colorPiel = "rojo";
 		rana.venenoso = true;
 		rana.habitat = "selva";
@@ -49,9 +49,9 @@ public class Anfibio extends Animal{
 		return rana;
 	}
 	
-	public static Anfibio crearSalamandra(String nombre, int edad, String habitat, String genero, Zona zona)
+	public static Anfibio crearSalamandra(String nombre, int edad, String habitat, String genero)
 	{
-		Anfibio sal = new Anfibio(nombre, edad, habitat, genero, zona, " ", false);
+		Anfibio sal = new Anfibio(nombre, edad, habitat, genero, " ", false);
 		sal.colorPiel = "negro y amarillo";
 		sal.venenoso = false;
 		sal.habitat = "selva";
