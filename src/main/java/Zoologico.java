@@ -15,6 +15,11 @@ public class Zoologico
 		this.zonas = zona;
 	}
 	
+	public Zoologico()
+	{
+
+	}
+	
 	public void agregarZonas(Zona zona)
 	{
 		zonas.add(zona);
