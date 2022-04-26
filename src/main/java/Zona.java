@@ -13,6 +13,12 @@ public class Zona
 	public Zona(){
 		
 	}
+
+	public Zona(String nombre, Zoologico zoo)
+	{
+		this.nombre = nombre;
+		this.zoo = zoo;
+	}
 	
 	public int cantidadAnimales()
 	{
